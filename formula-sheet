@@ -1,0 +1,59 @@
+# Present Value calculation
+    # discount factor   # interest rate factor  # Present value of single cash flows (N periods from the future)
+    
+    #Present value of an annuity
+    
+    #present value of a growing annuity with growth rate g
+    
+    # The equivalent annual annuity
+    
+    # One period dividend model     #constant dividend groth model
+    
+    #Dividend yield     #Capital gain rate
+    
+    #Free cash flow     Firm´s enterprise value
+    
+# Future value calculations (N periods into the future)
+# Future value      #Future value of annuity
+
+
+
+# Conversion of interest rates
+# Nominal and real rates    #Nominal rate after taxes
+
+#Effective annual rate to effective period rate     #Effective annual rate to annual percentage rate
+
+
+
+# Bonds
+# Coupon bonds      #Zero-coupon bonds
+
+
+
+# Options Payoff
+# buy call option    # sell call option
+# buy put Options   # sell put Options
+
+
+
+# Statistics
+# Expected return   #Variance
+# Variance estimation
+# Average return    #Standard deviation
+# Covariance
+# Covariance estimation
+# Correlation
+
+
+
+# Portfolio theory
+# Return of a portfolio of 1 assets     # Expected return of a portfolio of 1 assets
+# Variance of a portfolio with two assets
+# Minimum variance portfolio of two assets
+# Sharpe ratio 
+
+
+
+# CAPM (capital asset pricing model)
+# Security market line      # Beta
+# Beta of a portfolio of 1 assets
