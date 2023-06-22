@@ -1,0 +1,11 @@
+# import biten
+
+# FV modellen
+C = float(input("Hur mycket pengar kommer du att investera?"))
+r = float(input("vad är räntan i decimaltal? (tex 0.10 för 10 procent)"))
+n = float(input("hur många år gäller det?"))
+FV = C*(1+r)**n
+
+# Print biten
+print ("")
+print ("Future value är " + str(FV))
