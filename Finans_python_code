@@ -1,6 +1,7 @@
 # import biten
+import time
 
-# FV modellen
+# FV-modellen 1
 C = float(input("Hur mycket pengar kommer du att investera?"))
 r = float(input("vad är räntan i decimaltal? (tex 0.10 för 10 procent)"))
 n = float(input("hur många år gäller det?"))
@@ -8,4 +9,32 @@ FV = C*(1+r)**n
 
 # Print biten
 print ("")
-print ("Future value är " + str(FV))
+time.sleep(1)
+print ("Future value 1 är " + str(FV))
+
+# Fråga användaren om de vill göra en till uträkning
+choice1 = input("Vill du göra en till uträkning? (ja/nej): ")
+if choice1.lower() == "ja":
+    print ("Då kör vi igen!")
+    # FV-modellen 1
+C = float(input("Hur mycket pengar kommer du att investera?"))
+r = float(input("vad är räntan i decimaltal? (tex 0.10 för 10 procent)"))
+n = float(input("hur många år gäller det?"))
+FV_2 = C*(1+r)**n
+
+print ("Future value 1 är " + str(FV))
+print ("Future value 2 är " + str(FV_2))
+
+# Fråga användaren om de vill göra en till uträkning
+choice2 = input("Vill du göra en till uträkning? (ja/nej): ")
+if choice2.lower() == "ja":
+    print ("Då kör vi igen!")
+    # FV-modellen 1
+C = float(input("Hur mycket pengar kommer du att investera?"))
+r = float(input("vad är räntan i decimaltal? (tex 0.10 för 10 procent)"))
+n = float(input("hur många år gäller det?"))
+FV_3 = C*(1+r)**n
+
+print ("Future value 1 är " + str(FV))
+print ("Future value 2 är " + str(FV_2))
+print ("Future value 2 är " + str(FV_3))
